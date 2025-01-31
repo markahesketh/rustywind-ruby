@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+require "rustywind/ruby"
+
+begin
+  binary_path = Rustywind::Ruby::Binary.path
+  unless File.exist?(binary_path)
+    puts "Binary not found at #{binary_path}. Please run 'rake download_binaries'"
+    exit 1
+  end
+
+  exec binary_path, *ARGV
+rescue Rustywind::Ruby::Error => e
+  puts "Error: #{e.message}"
+  exit 1
+end
