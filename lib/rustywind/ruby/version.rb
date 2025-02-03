@@ -2,6 +2,6 @@
 
 module Rustywind
   module Ruby
-    VERSION = "0.23.1.1"
+    VERSION = "0.23.1.2"
   end
 end
