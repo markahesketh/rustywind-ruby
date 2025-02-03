@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rustywind-ruby (0.23.1)
+    rustywind-ruby (0.23.1.1)
 
 GEM
   remote: https://rubygems.org/
