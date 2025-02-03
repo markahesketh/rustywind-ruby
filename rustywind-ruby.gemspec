@@ -15,6 +15,9 @@ Gem::Specification.new do |spec|
   spec.files = Dir["lib/**/*", "LICENSE.txt", "LICENSE-DEPENDENCIES", "README.md"]
   spec.required_ruby_version = ">= 3.1.0"
 
+  spec.metadata["source_code_uri"] = spec.homepage
+  spec.metadata["changelog_uri"] = "https://github.com/markahesketh/rustywind-ruby/blob/main/CHANGELOG.md"
+
   spec.bindir = "exe"
   spec.executables << "rustywind"
   spec.require_paths = ["lib"]
