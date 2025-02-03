@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description = "A Ruby wrapper for rustywind, a CLI utility for sorting Tailwind CSS classes"
   spec.homepage = "https://github.com/markahesketh/rustywind-ruby"
   spec.license = "MIT"
-  spec.files = Dir["lib/**/*", "LICENSE.txt", "LICENSE-DEPENDENCIES", "README.md"]
+  spec.files = Dir["lib/**/*", "exe/**/*", "LICENSE.txt", "LICENSE-DEPENDENCIES", "README.md"]
   spec.required_ruby_version = ">= 3.1.0"
 
   spec.metadata["source_code_uri"] = spec.homepage
