@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Rustywind::Ruby::Upstream
-  VERSION = "0.23.1"
+  VERSION = "0.24.0"
 
   BINARY_URLS = {
     %w[darwin arm64] => "rustywind-v#{VERSION}-aarch64-apple-darwin.tar.gz",
