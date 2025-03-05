@@ -41,6 +41,7 @@ Refer to the [Rustywind documentation](https://github.com/avencera/rustywind/blo
 - Update the version number in `upstream.rb` and `version.rb`
 - Run `bundle exec rake clobber`
 - Run `bundle exec rake download_binaries`
+- Commit any changes and update changelog
 - Run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org)
 - Draft a new release on [GitHub](https://github.com/markahesketh/rustywind-ruby/releases)
 
